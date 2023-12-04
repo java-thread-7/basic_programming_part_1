@@ -26,11 +26,13 @@ public class VocalConsonant {
                 case 'e':
                 case 'o':
                     countVocal++;
+                    // System.out.println(letter.charAt(i) + " vocal");
                     break;
                 case ' ':
                     break;
                 default:
                     countConsonant++;
+                    // System.out.println(letter.charAt(i) + " consonant");
             }
             totalChar++;
         }
