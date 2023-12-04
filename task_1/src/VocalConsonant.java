@@ -12,7 +12,6 @@
     Total Karakter : 16
 */
 
-
 public class VocalConsonant {
     public static void main(String[] args) {
         String letter = "Alterra Indonesia";
@@ -27,19 +26,14 @@ public class VocalConsonant {
                 case 'e':
                 case 'o':
                     countVocal++;
-                    // System.out.println(letter.charAt(i) + " vocal");
                     break;
                 case ' ':
                     break;
                 default:
                     countConsonant++;
-                    // System.out.println(letter.charAt(i) + " consonant");
-
             }
-
             totalChar++;
         }
-
         System.out.println("Count Vocal : " + countVocal);
         System.out.println("Count Consonant : " + countConsonant);
         System.out.println("Total Character : " + totalChar);
